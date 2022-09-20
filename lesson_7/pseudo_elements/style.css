@@ -6,8 +6,6 @@
 
 .theory::first-line {
   font-size: 24px;
-  background-color: red;
-  color: white;
 }
 
 a::before {
