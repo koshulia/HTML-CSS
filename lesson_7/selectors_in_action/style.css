@@ -13,9 +13,9 @@ li {
   color: blue;
 }
 
-/* p {
+p {
   background-color: yellow;
-} */
+}
 
 input {
   border: 3px solid red;
@@ -33,7 +33,7 @@ div p {
   font-size: 25px;
 }
 
-input[text] {
+input[type='text'] {
   background-color: gray;
 }
 
