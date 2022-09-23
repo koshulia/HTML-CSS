@@ -2,10 +2,13 @@
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+}
+
 .block {
-  height: 200px;
-  width: 20%;
-  float: left;
+  height: 300px;
+  flex-grow: 1;
 }
 
 .block_red {
