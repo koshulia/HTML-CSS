@@ -1,6 +1,14 @@
+body {
+}
+
 header {
   display: flex;
   justify-content: center;
+}
+
+.articles-list {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .article {
@@ -9,4 +17,5 @@ header {
   background-color: bisque;
   flex-basis: 300px;
   flex-grow: 1;
+  flex-shrink: 1;
 }
