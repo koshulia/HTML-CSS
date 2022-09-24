@@ -12,6 +12,7 @@
   padding: 15px;
   background-color: darkgreen;
   opacity: 0.8;
+  display: flex;
 }
 
 .menu-button:hover {
