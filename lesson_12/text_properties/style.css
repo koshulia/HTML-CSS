@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+}
+body {
   margin: 32px;
 }
 section {
@@ -22,6 +24,7 @@ span {
   opacity: 80%;
   text-decoration: underline;
   font-weight: 900;
+  margin: 0;
 }
 
 a {
