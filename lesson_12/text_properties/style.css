@@ -1,12 +1,11 @@
 * {
   box-sizing: border-box;
 }
-body {
-  margin: 32px;
-}
+
 section {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
+  margin: 32px;
 }
 
 h1 {
@@ -24,7 +23,6 @@ span {
   opacity: 80%;
   text-decoration: underline;
   font-weight: 900;
-  margin: 0;
 }
 
 a {
