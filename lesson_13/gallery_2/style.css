@@ -14,5 +14,5 @@
 
 .gallery {
   display: flex;
-  overflow: scroll;
+  overflow: auto;
 }
