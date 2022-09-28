@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+button[type='submit'] {
+  display: block;
+}
+
+.form-control {
+  margin: 16px;
+}
