@@ -3,11 +3,10 @@
 }
 
 body {
-  margin: 16px;
 }
 .checkbox {
   padding-left: 35px;
-
+  margin: 16px;
   font-size: 24px;
   position: relative;
   display: block;
@@ -30,4 +29,5 @@ input {
   background-color: #d3d3d3;
   top: 0;
   left: 0;
+  display: block;
 }
