@@ -4,7 +4,6 @@
 
 form {
   margin: 32px;
-  display: block;
 }
 
 input,
@@ -13,9 +12,7 @@ select,
 button,
 .languages {
   margin: 8px;
-  /* display: block; */
-  display: flex;
-  align-items: normal;
+  display: block;
 }
 
 input[type='radio'] {
@@ -23,7 +20,6 @@ input[type='radio'] {
   margin: 0;
 }
 
-/* input[name='like'] {
-  margin-top: 16px;
-  margin-bottom: 16px;
-} */
+label {
+  margin-right: 2px;
+}
