@@ -1,4 +1,4 @@
-* {
+html {
   box-sizing: border-box;
 }
 
@@ -18,8 +18,4 @@ button,
 input[type='radio'] {
   display: inline;
   margin: 0;
-}
-
-label {
-  margin-right: 2px;
 }
