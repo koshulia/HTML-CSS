@@ -16,4 +16,10 @@ button {
 
 input[type='radio'] {
   display: inline;
+  margin: 0;
+}
+
+input[name='like'] {
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
