@@ -4,14 +4,18 @@
 
 form {
   margin: 32px;
+  display: block;
 }
 
 input,
 textarea,
 select,
-button {
+button,
+.languages {
   margin: 8px;
-  display: block;
+  /* display: block; */
+  display: flex;
+  align-items: normal;
 }
 
 input[type='radio'] {
@@ -19,7 +23,7 @@ input[type='radio'] {
   margin: 0;
 }
 
-input[name='like'] {
+/* input[name='like'] {
   margin-top: 16px;
   margin-bottom: 16px;
-}
+} */
