@@ -12,6 +12,8 @@
   margin-bottom: 16px;
   background-color: coral;
   text-align: center;
+  line-height: 100px;
+
   opacity: 0.5;
   transition-property: width, opacity;
   transition-duration: 2s, 0.5s;
