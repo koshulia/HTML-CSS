@@ -16,12 +16,16 @@
   font-size: 16px;
   text-transform: uppercase;
   animation: blinking 2s infinite linear;
+  text-align: center;
 }
 
 .circle {
   height: 50px;
   width: 50px;
-  border: 4px solid lightgray;
+  /* border: 4px solid lightgray; */
+  border-bottom: 4px solid lightgray;
+  border-left: 4px solid lightgray;
+  border-right: 4px solid lightgray;
   border-radius: 50%;
   border-top: 4px solid black;
   margin: 0 auto 8px;
