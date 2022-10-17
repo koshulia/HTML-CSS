@@ -9,6 +9,9 @@ html {
 }
 
 .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #fff;
   text-align: center;
   background-image: linear-gradient(60deg, red, orange);
@@ -16,6 +19,7 @@ html {
 
 .main {
   display: flex;
+  min-height: calc(100vh - 79.67px - 34.39px);
 }
 
 .navigation {
@@ -35,7 +39,10 @@ html {
 }
 
 .section__header {
-  font-size: 5rem;
+  font-size: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .units-list {
@@ -49,12 +56,30 @@ html {
   font-weight: 700;
 }
 
+.nav-list-item {
+  background-color: #808080;
+  line-height: 2em;
+  margin-bottom: 0.5em;
+}
+
+.nav-list-link {
+  display: block;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  color: #fff;
+  text-decoration: none;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
 .news {
   width: 20%;
   padding: 0.5em;
 }
+
 .footer {
-  display: flex;
+  text-align: center;
   background-color: #e5e5e5;
   padding: 0.5em;
 }
