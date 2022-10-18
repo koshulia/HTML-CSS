@@ -2,13 +2,6 @@
   box-sizing: border-box;
 }
 
-.container {
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; */
-}
-
 .navigation {
   background-color: #ff7f50;
   min-height: 200px;
