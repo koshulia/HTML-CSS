@@ -2,6 +2,17 @@
   box-sizing: border-box;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.products {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+}
+
 .navigation {
   background-color: #ff7f50;
   min-height: 200px;
@@ -30,17 +41,18 @@
   background-color: #faebd7;
   border-radius: 4px;
   margin: auto;
+  padding: 8px;
 }
 
-@media screen and (min-width: 600px) and (max-width: 899px) {
+@media screen and (min-width: 600px) {
   .products {
-    display: flex;
+    flex-direction: row;
     flex: 2;
   }
 }
 
 @media screen and (min-width: 900px) {
   .container {
-    display: flex;
+    flex-direction: row;
   }
 }
